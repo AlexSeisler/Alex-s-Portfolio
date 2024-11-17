@@ -714,8 +714,16 @@ textarea {
 .cardTop{
   height:15rem;
   width:100%;
-  background-image: url("images/Screenshot\ 2024-11-10\ 154544.png");
   background-size:cover;
+}
+.one{
+  background-image: url("images/Portfolio.png");
+}
+.two{
+  background-image: url("images/ACS\ Results.png");
+}
+.three{
+  background-image: url("images/Screenshot\ 2024-11-10\ 154544.png");
 }
 .cardBottom{
   padding-top:20px;
