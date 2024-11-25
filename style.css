@@ -723,7 +723,10 @@ textarea {
   background-image: url("images/ACS\ Results.png");
 }
 .three{
-  background-image: url("images/Screenshot\ 2024-11-10\ 154544.png");
+  background-image: url("images/PythonProjects.png");
+}
+.four{
+  background-image: url("images/JavaProjects.png");
 }
 .cardBottom{
   padding-top:20px;
@@ -753,5 +756,95 @@ textarea {
   color:white;
   background-color: #0062b9;
 }
+
+
+
+/* Card Container */
+.works {
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Individual Cards */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cardTop {
+  height: 150px;
+}
+
+.cardTop.one {
+  background-color: #e74c3c;
+}
+
+.cardTop.two {
+  background-color: #3498db;
+}
+
+.cardTop.three {
+  background-color: #2ecc71;
+}
+
+.cardTop.four {
+  background-color: #f39c12;
+}
+
+.cardBottom {
+  padding: 20px;
+  text-align: center;
+}
+
+.cardBottom .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.cardBottom .name {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.cardBottom .date {
+  font-size: 1rem;
+  color: #95a5a6;
+  margin-bottom: 20px;
+}
+
+.codeDemo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Demo {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 48%;
+}
+
+.Demo:hover {
+  background-color: #1abc9c;
+}
+
 
 
